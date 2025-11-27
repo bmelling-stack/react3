@@ -1,0 +1,70 @@
+import React, { Component } from 'react';
+import Header from '../common/Header.jsx';
+import Footer from '../common/Footer.jsx';
+
+function Introduction() {
+    return (
+        <div>
+            <Header />
+            <main>
+                <h2>Introduction</h2>
+                <h2>Brian Mellinger: Introduction</h2>
+                
+                <figure> 
+                    <img src="images/brian-and-buffy-low-quality.png" alt="Brian and Buffy the cat"/>
+                    <figcaption>Photo of Brian with Buffy</figcaption>
+                </figure>
+
+                <ul>
+                    <li><b>Personal Background: </b>I am a native North Carolina resident that now lives in Charlotte! I have also lived briefy in 
+                    Arizona. I am in Charlotte so that I can study to become a Computer Scientist at the University of North Carolina at Charlotte.
+                    </li>
+
+                    <li><b>Professional Background: </b> Before going to college, I enlisted in the North Carolina Army National Guard as an Intelligence Analyst.
+                    I frequently enjoy learning about security and I also enjoy helping others.
+                    </li>
+
+                    <li><b>Academic Background: </b>I am now a junior in Computer Science and I am in the cybersecurity concentration.
+                    </li>
+
+                    <li><b>Background in this Subject: </b>I have very little background in web development but I am excited to learn.
+                    </li>
+
+                    <li><b>Primary Computer Platform: </b>Asus, Microsoft Windows 11, I primarily work at home
+                    </li>
+
+                    <li><b>Courses I'm Taking & Why: </b> 
+                        <ul>
+
+                            <li><b>MSCI 3101/3101L </b>- Adaptive Team Leadership/Lab: This is Army ROTC, I am taking this course in hopes to become an Army Reserve 
+                                Cybersecurity Officer. I also love the physical and mental challenge and want to progress my current professional career.
+                            </li>
+
+                            <li><b>ITSC 2600 </b>- Computer Science, Program, Identity, Career: Required to take this as it is my first semester at UNCC.
+                            </li>
+
+                            <li><b>ITIS 3135 </b>- Front-End Web Application Development: Required to take this, however, I am excited to take my first course that 
+                                is front end oriented.
+                            </li>
+
+                            <li><b>ITSC 3146 </b>- Introduction to Operating Systems & Networks: Required to take this course.
+                            </li>
+
+                            <li><b>ITSC 2175 </b>- Logic and Algorithms: Required to take this course.
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li><b>Funny/Interesting Item to Remember me by: </b>I originally did not like cats, however, I used to watch a kitten run away from freshman 
+                        girls at North Carolina State University near their dorms almost everyday. One day it walked up to me and let me hold her. I failed to 
+                        relocate her to a new home and she's been with me for two years now.
+                    </li>
+                </ul>
+            </main>
+            <Footer />
+        </div>
+    );
+}
+
+export default Introduction;
