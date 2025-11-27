@@ -12,6 +12,11 @@ nav {
     margin-bottom: 1rem;
 }
 
+header {
+    text-align: center;
+    margin: 1rem 0;
+}
+
 a {
     color: darkcyan;
     text-decoration: none;
