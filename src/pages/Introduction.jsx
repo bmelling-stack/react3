@@ -11,7 +11,7 @@ function Introduction() {
                 <h2>Brian Mellinger: Introduction</h2>
                 
                 <figure> 
-                    <img src="images/brian-and-buffy-low-quality.png" alt="Brian and Buffy the cat"/>
+                    <img src="../images/brian-and-buffy-low-quality.png" alt="Brian and Buffy the cat"/>
                     <figcaption>Photo of Brian with Buffy</figcaption>
                 </figure>
 
