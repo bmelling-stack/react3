@@ -3,6 +3,7 @@ import './styles/default.css';
 import IndividualStartPage from './pages/IndividualStartPage.jsx';
 import Introduction from './pages/Introduction.jsx';
 import Contract from './pages/Contract.jsx';
+import Pull_Intro from './pages/Pull_Intro.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Route path="/" element={<IndividualStartPage />} />
       <Route path="/Introduction" element={<Introduction />} />
       <Route path="/Contract" element={<Contract />} />
+      <Route path="/Pull_Intro" element={<Pull_Intro />} />
 
     </Routes>
     
